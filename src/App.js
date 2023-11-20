@@ -1,13 +1,19 @@
 import './App.css';
 
-import { useState } from 'react';
-import InputField from './components/inputField/InputField';
+import Hero from './assets/hero.png'
 
 function App() {
-  const [email, setEmail] = useState('')
-  return (
-    <InputField value={email} setValue={v => setEmail(v)} placeholder={"Email"} />
-  );
+	return (
+		<div className='app-container'>
+			<div className='right-abs-back'></div>
+			<div className='left-sec'>
+				<img src={Hero} alt='Hero' />
+			</div>
+			<div className='right-sec'>
+				
+			</div>
+		</div>
+  	);
 }
 
 export default App;
