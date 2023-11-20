@@ -1,0 +1,11 @@
+.button {
+    width: 100%;
+    padding: 1rem;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: linear-gradient(to right,rgb(34,58,122),rgb(166,201,255));
+}

@@ -1,6 +1,7 @@
 import './App.css';
 
 import Hero from './assets/hero.png'
+import Form from './components/form/Form';
 
 function App() {
 	return (
@@ -10,7 +11,7 @@ function App() {
 				<img src={Hero} alt='Hero' />
 			</div>
 			<div className='right-sec'>
-				
+				<Form />
 			</div>
 		</div>
   	);
